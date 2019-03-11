@@ -1,0 +1,11 @@
+p {
+    color: red;
+}
+#news ul{
+    list-style:none;
+}
+#side_banner{
+    margin-bottom:30px;
+    border:1px solid #956840;
+    text-align:center;
+}

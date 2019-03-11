@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    margin:0;
+    padding:0;
+    color:black;
+}
+#wrapper{
+    width:1000px;
+    margin:0;
+    padding:0;
+}
+#menu{
+    width:300px;
+    float:right;
+    background-color:#ccccff;
+}
+
+#main{
+    width:700px;
+    float:left;
+    background-color:#ccffcc;
+}
+.clearfix::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+header{
+    width:1000px;
+    margin:0;
+    padding:0;
+    background-color:#ffcccc;
+}
+footer{
+    width:1000px;
+    margin:0;
+    padding:0;
+    background-color:#ffccff;
+}
