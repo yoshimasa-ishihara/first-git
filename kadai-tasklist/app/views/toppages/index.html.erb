@@ -1,0 +1,17 @@
+<% if logged_in? %>
+ <div class="row">
+    <div class="col-xs-8">
+      <%= render 'tasks/tasks', tasks: @tasks %>
+    </div>
+  </div>
+<% else %>
+<div class="center jumbotron">
+  <div class="text-center">
+    <h1>タスクリスト</h1>
+    <ul style="list-style:none;">
+      <li><%= link_to '新規登録', signup_path, class: 'btn btn-lg btn-primary' %></li>
+      <li><%= link_to 'ログイン', login_path, class: 'btn btn-lg btn-primary' %></li>
+    </ul>  
+  </div>
+</div>
+<% end %>
